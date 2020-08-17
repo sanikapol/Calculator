@@ -1,0 +1,2 @@
+include ':app', ':calcoperations'
+rootProject.name='CalculatorOperations'

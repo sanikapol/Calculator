@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonTextSize">40sp</dimen>
+    <dimen name="inputTextSize">60sp</dimen>
+    <dimen name="outputTextSize">50sp</dimen>
+</resources>

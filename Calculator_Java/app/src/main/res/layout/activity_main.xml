@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="731dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btn_sin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sin"
+                android:onClick="clickHandlerOperators"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+            <Button
+                android:id="@+id/btn_cos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cos"
+                android:onClick="clickHandlerOperators"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_tan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tan"
+                android:onClick="clickHandlerOperators"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_division"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="/"
+                android:onClick="clickHandlerOperators"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btn_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="7"
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="8"
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="9"
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_multiplication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="*"
+                android:onClick="clickHandlerOperators"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btn_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4"
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5"
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="6"
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_subtraction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="-"
+                android:onClick="clickHandlerOperators"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btn_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2"
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3"
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_addition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+"
+                android:onClick="clickHandlerOperators"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btn_decimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="."
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Del"
+                android:onClick="clickHandlerOperands"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+            <Button
+                android:id="@+id/btn_eval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="="
+                android:onClick="clickHandlerOperators"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/buttonTextSize" />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:padding="15dp"
+            android:maxLines="3"
+            tools:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/inputTextSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_output"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:padding="15dp"
+            tools:text="TextView"
+            android:textSize="@dimen/outputTextSize"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
